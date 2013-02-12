@@ -1,0 +1,22 @@
+html {
+	display: table;
+	table-layout: fixed;
+	width: 100%; 
+	height: 100%;
+}
+
+body {	
+	display: table-cell;	
+	width: 100%; 
+	height: 100%;
+	vertical-align: middle;
+	margin:0;
+	color:#4D4D4D;
+	font-family: arial;
+}
+
+#pagination {
+	width:400px;
+	height:400px;
+	margin: auto; 
+}
