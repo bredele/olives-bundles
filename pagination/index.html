@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Change lang</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="pagination">
+			<button data-event="listen:click,previous">previous</button>
+			<button class="right" data-event="listen:click,next">next</button>
+			<ul data-bind="foreach:items,0,10">
+				<li data-bind="bind:innerHTML,name">This is an item renderer</li>
+			</ul>
+		</div>
+		<script src="../libs/require.js"></script>
+		<script src="../libs/Emily.js"></script>
+		<script src="../libs/Olives.js"></script>
+		<script src="js/pagination.js"></script>
+	</body>
+</html>

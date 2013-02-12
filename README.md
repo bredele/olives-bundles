@@ -72,3 +72,19 @@ require(["OObject", "Bind.plugin" , "Event.plugin"], function(Widget, Bind, Even
 ```	
 It loads the wanted nls file every time a language is selected.
 
+## Pagination
+
+https://github.com/bredele/olives-bundles/tree/master/pagination
+
+Olive.js allows you to render lists (see https://github.com/flams/olives/wiki/Plugin:-Model-plugin) with the Bind plugin.
+
+This example shows how to paginate your list by setting limits of rendered items.
+
+```html
+<ul data-bind="foreach:items,0,10">
+	<li data-bind="bind:innerHTML,name">This is an item renderer</li>
+</ul>
+```	
+In this snippet, we display the first 10 items of the store associated to the bind plugin. An item (also called ItemRenderer) is a li markup with its innerHTML property binded to the store.
+
+Note: The ItemRenderer is the first child of the markup with the ''foreach'' directive. It can be anything and not just ul li tags.

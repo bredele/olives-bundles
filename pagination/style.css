@@ -1,0 +1,62 @@
+html {
+	display: table;
+	table-layout: fixed;
+	width: 100%; 
+	height: 100%;
+}
+
+body {	
+	display: table-cell;	
+	width: 100%; 
+	height: 100%;
+	vertical-align: middle;
+	margin:0;
+	color:#4D4D4D;
+	font-family: arial;
+}
+
+#pagination {
+	width:400px;
+	height:400px;
+	margin: auto; 
+}
+
+button {
+	background: whitesmoke;
+	border:1px solid gainsboro;
+	padding:6px 10px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+button:hover {
+	border:1px solid rgb(200,200,200);
+}
+
+button:active {
+	background: gainsboro;
+}
+
+button.right {
+	float:right;
+}
+
+ul {
+	border:1px solid gainsboro;
+	padding:0;
+	list-style:none;
+}
+
+li {
+	height:40px; line-height: 40px;
+	padding-left:10px;
+	border-bottom:1px solid gainsboro;
+}
+
+li:nth-child(2n+1){
+	background:whitesmoke;
+}
+
+li:last-child {
+	border-bottom:0;
+}
