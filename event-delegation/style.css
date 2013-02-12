@@ -15,8 +15,31 @@ body {
 	font-family: arial;
 }
 
-#pagination {
+details {
+	position:absolute;
+	cursor: pointer;
+	top: 20px; left: 20px;
+}
+
+.wrapper {
 	width:400px;
-	height:400px;
 	margin: auto; 
+}
+
+
+ul {
+	border:1px solid gainsboro;
+	padding:0;
+	list-style:none;
+}
+
+li {
+	height:40px; line-height: 40px;
+	padding-left:10px;
+	border-bottom:1px solid gainsboro;
+}
+
+li.fired{
+	background:whitesmoke;
+	cursor:pointer;
 }
