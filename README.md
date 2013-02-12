@@ -18,4 +18,26 @@ Olives.js is based on Emily.js. Both are located on this directory : https://git
 
 ## Change theme
 
+https://github.com/bredele/olives-bundles/tree/master/change-theme
 
+This example shows you how to quickly change the theme (css) of your application. It binds the href attribute of a stylesheet link with a Olives Store.
+
+```html
+	<link rel="stylesheet" href="theme/default.css" data-theme="bind:href,href">
+```	
+
+
+```js
+require(["OObject", "Bind.plugin" , "Event.plugin"], function(Widget, Bind, Event){
+	var widget = new Widget();
+	widget.plugins.addAll({
+		"theme" : new Bind(widget.model),
+		"select" : new Event(widget)
+	});
+
+	widget.toggleTheme = function(event){
+		widget.model.set("href", event.target.value);
+	};
+	widget.alive(document.documentElement);
+});
+```	
