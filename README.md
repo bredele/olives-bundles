@@ -85,6 +85,6 @@ This example shows how to paginate your list by setting limits of rendered items
 	<li data-bind="bind:innerHTML,name">This is an item renderer</li>
 </ul>
 ```	
-In this snippet, we display the first 10 items of the store associated to the bind plugin. An item (also called ItemRenderer) is a li markup with its innerHTML property binded to the store.
+In this snippet, we display the first 10 items of the store associated to the bind plugin. An item (also called ItemRenderer) is a li markup with its innerHTML property binded to the model.
 
-Note: The ItemRenderer is the first child of the markup with the ''foreach'' directive. It can be anything and not just ul li tags.
+Note: The ItemRenderer is the first child of the markup with the **foreach** directive. It can be anything and not just ul li tags.
