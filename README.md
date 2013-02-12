@@ -46,7 +46,7 @@ require(["OObject", "Bind.plugin" , "Event.plugin"], function(Widget, Bind, Even
 });
 ```	
 
-## Dynamically Change Lang
+## Dynamically change lang
 
 https://github.com/bredele/olives-bundles/tree/master/change-lang
 
