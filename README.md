@@ -108,11 +108,13 @@ Moreover, the Event plugin allows you to apply CSS query selection on your event
 
 And there is more, the Event plugin allows you to map your events with touchable events or any events you want.
 
-By default, if you pass true to the second argument of the constructor method of **Event.plugin**, then mouse events will be map with touch events as following:
+By default, if you pass true to the second argument of the constructor method of **Event.plugin**, the mouse events will be map with touch events as following:
 
+```
 mousedown : touchstart
 mouseup : touchend
-mousemov : touchmove
+mousemove : touchmove
+```	
 
 Your will keep clean separation or concerns because your html will not change (ex: mouseup on your html will correspond to a touchend event listener).
 
