@@ -1,0 +1,21 @@
+.flag {
+	background: white;
+	width:300px; height:400px;
+	position:relative;
+}
+
+.flag:before {
+	display:block; content : "";
+	position:absolute; right:300px;
+	width:300px;
+	height:400px;
+	background: blue;
+}
+
+.flag:after {
+	display:block; content : "";
+	position:absolute; left:300px;
+	width:300px;
+	height:400px;
+	background: red;
+}

@@ -1,7 +1,7 @@
 olives-bundles
 ==============
 
-This is a showcase of what Olives.js is capable of. 
+This is a showcase of what Olives.js is capable of. First you will need to install Olives.js.
 
 ### Install Olives.js
 
@@ -17,4 +17,5 @@ Olives.js is based on Emily.js. Both are located on this directory : https://git
 
 
 ## Change theme
+
 

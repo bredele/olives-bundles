@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'theme';
+	src:url('fonts/theme.eot');
+	src:url('fonts/theme.eot?#iefix') format('embedded-opentype'),
+		url('fonts/theme.woff') format('woff'),
+		url('fonts/theme.ttf') format('truetype'),
+		url('fonts/theme.svg#theme') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: 'theme';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-canada:before {
+	font-family: 'theme';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-canada:before {
+	content: "\29";
+}
+
+
+.flag {
+	background: white;
+	color:red; font-size: 200px;
+	width:300px; height:400px;
+	position:relative;
+}
+
+.flag .fs1 {
+	position:absolute;
+	padding: 80px 50px;
+}
+
+.flag:before {
+	display:block; content : "";
+	position:absolute; right:300px;
+	width:300px;
+	height:400px;
+	background: red;
+}
+
+.flag:after {
+	display:block; content : "";
+	position:absolute; left:300px;
+	width:300px;
+	height:400px;
+	background: red;
+}
