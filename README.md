@@ -45,3 +45,30 @@ require(["OObject", "Bind.plugin" , "Event.plugin"], function(Widget, Bind, Even
 	widget.alive(document.documentElement);
 });
 ```	
+
+## Dynamically Change Lang
+
+https://github.com/bredele/olives-bundles/tree/master/change-lang
+
+This example shows you how to dynamically change the language of your application with the i18n plugin of requirejs (this plugin is not necessary).
+
+```js
+require(["OObject", "Bind.plugin" , "Event.plugin"], function(Widget, Bind, Event){
+	var widget = new Widget();
+	widget.plugins.addAll({
+		"text" : new Bind(widget.model),
+		"select" : new Event(widget)
+	});
+
+	widget.toggleLang = function(event){
+		var path = "../libs/i18n!nls/" + event.target.value + "/root";
+		//the lang can't be change dynamically with locale config
+		require([path], function(root){
+			widget.model.reset(root);
+		});
+	};
+	widget.alive(document.body);
+});
+```	
+It loads the wanted nls file every time a language is selected.
+
