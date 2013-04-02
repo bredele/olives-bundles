@@ -1,7 +1,8 @@
 olives-bundles
 ==============
 
-This is a showcase of what Olives.js is capable of. First you will need to install Olives.js.
+> This is a showcase of what Olives.js is capable of. First you will need to install Olives.js.
+
 
 ### Install Olives.js
 
