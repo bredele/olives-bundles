@@ -3,6 +3,13 @@ olives-bundles
 
 > This is a showcase of what Olives.js is capable of. First you will need to install Olives.js.
 
+If you haven't used [Nodejs](http://nodejs.org/) before, be sure to check out the [Getting Started](http://nodejs.org/) guide, as it explains how to install and use Nodejs as well as npm. Once you're familiar with that process, you may install Olives.js with the following shell command:
+
+```shell
+npm install olives.js
+```
+
+
 
 ### Install Olives.js
 
