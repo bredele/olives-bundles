@@ -1,7 +1,7 @@
 olives-bundles
 ==============
 
-> This is a showcase of what Olives.js is capable of. First you will need to install Olives.js.
+> This is a showcase of what Olives.js is capable of.
 
 ## Getting started
 
@@ -11,7 +11,7 @@ If you haven't used [Nodejs](http://nodejs.org/) before, be sure to check out th
 npm install olives.js
 ```
 
-You also can download the latest version of olives.js at this [link](https://github.com/flams/olives/tree/master/build).
+You also can download the latest version at this [link](https://github.com/flams/olives/tree/master/build).
 
 Olives requires an AMD/commonJS compatible loader. I use requirejs: http://requirejs.org/.
 
