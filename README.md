@@ -9,9 +9,7 @@ If you haven't used [Nodejs](http://nodejs.org/) before, be sure to check out th
 npm install olives.js
 ```
 
-
-
-### Install Olives.js
+You also can download the latest version of olives.js at this [link](https://github.com/flams/olives/tree/master/build).
 
 Olives requires an AMD/commonJS compatible loader. I use requirejs: http://requirejs.org/.
 
